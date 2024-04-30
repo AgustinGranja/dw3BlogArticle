@@ -1,22 +1,88 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TEXT</title>
+    <title>BlogArticleBootstrap</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
+
 <body>
 
+    <header class="mainHeader">
+        <nav class="navbar navbar-expand-lg fixed-top bg-danger">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Blog</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
+                    <ul class="navbar-nav me-auto me-lg-0 ms-lg-auto my-2 my-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                        <li class="nav-item">
+                            <a href="/otrolado.html" class="nav-link"> Otro lado</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Link
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
+    <main class="container">
+        <div>
+            <h1>Animales Salvajes</h1>
+            <p>Este felino es uno de los más peligrosos del mundo y es originario de África y de ciertas regiones en la
+                India. Pueden medir unos 2 o 3 metros de largo y tener un peso de 120 a 260 kilogramos. Los machos se
+                caracterizan por tener una gran melena rubia u oscura alrededor del cuello. Tanto macho como hembra
+                tienen un pelaje dorado, y una larga cola. Los leones, como buenos cazadores, son capaces de desgarrar a
+                su presa con sus colmillos y garras.</p>
+        </div>
+        <img src="img/leon.png" alt="Leon" width="412" height="320">
+        <p>Este felino es uno de los más peligrosos del mundo y es originario de África y de ciertas regiones en la
+            India. Pueden medir unos 2 o 3 metros de largo y tener un peso de 120 a 260 kilogramos. Los machos se
+            caracterizan por tener una gran melena rubia u oscura alrededor del cuello. Tanto macho como hembra tienen
+            un pelaje dorado, y una larga cola. Los leones, como buenos cazadores, son capaces de desgarrar a su presa
+            con sus colmillos y garras.</p>
+        <p>Este mamífero herbívoro es uno de los animales terrestres más grandes del planeta. Su peso varía desde los
+            120 kilogramos cuando nace y puede alcanzar los 10.000 kilogramos cuando es adulto, y puede alcanzar una
+            altura de casi 4 metros. Se caracteriza por sus grandes colmillos y tener una trompa nasal le ayuda a
+            alimentarse, tomar agua, y sujetar cosas.</p>
+        <p>El oso polar vive en las regiones polares del Ártico. Su peso va entre los 350 y los 680 kilogramos y puede
+            medir unos 2,6 metros de pie. Su pelaje de color blanco le permite camuflarse con el hielo y es un excelente
+            nadador y cazador gracias a sus garras. En su piel tiene una gruesa capa de grasa y un recubrimiento que le
+            permite aislar el frío. Se encuentra en peligro de extinción por la destrucción de su hábitat natural debido
+            al cambio climático.</p>
+        <aside class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/Nz_ddlT5JXQ?si=w20Tewh25NG9BVcq" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </aside>
+    </main>
 
-
-
+    <footer>NADA LOL</footer>
 
 
 
 
 
     <script src="script.js"> </script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
